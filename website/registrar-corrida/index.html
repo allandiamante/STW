@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Registrar Corrida</title>
+        <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <section class="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#">Sistema Transporte Web</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ml-auto text-right">
+                        <li class="nav-item">
+                          <a class="nav-link active-home" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">CONSULTA</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">NOS CONTATE</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">PERFIL</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+        </section>
+        <section class="service">
+          <div class="container">
+            <h2 class="title">
+              Registrar Corrida
+            </h2>
+            <p></p>
+            <form>
+              <div class="row justify-content-md-center">
+                <div class="col-md-4 mb-3">
+                  <label for="validationServer01">Local de Partida:</label>
+                  <input type="text" class="form-control" id="validationServer01" value="" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationServer02">Local de Chegada:</label>
+                  <input type="text" class="form-control" id="validationServer02" value="" required>
+                </div>
+              </div>
+              <div class="row justify-content-md-center">
+                <div class="col-md-4 mb-3">
+                  <label for="validationServer04">Cliente</label>
+                  <select class="custom-select" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationServer04">Tipo de Carga</label>
+                  <select class="custom-select" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row justify-content-md-center">
+                <div class="col-md-4 mb-3">
+                  <label for="validationServer04">Frota</label>
+                  <select class="custom-select" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationServer05">Quantidade de veículos:</label>
+                  <input type="text" class="form-control" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+                </div>
+              </div>
+              <div class="text-center">
+                <button class="btn btn-primary" type="submit">Registrar Corrida</button>
+              </div>
+            </form>
+          </div>
+        </section>
+    </body>
+</html>
