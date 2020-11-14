@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url("../imagens/truck1.png");
+    background-repeat: no-repeat;
+    background-size: 38mm;
+    background-color: lightslategrey;
+}
+.navbar{
+    padding-top: 20px !important;
+}
+.nav-item{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.nav-link{
+    color:#fff !important;
+    font-size: 12px !important;
+    padding: 0 0 5px 0 !important;
+    display: unset !important;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 40px;
+}
+.navbar-toggler{
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+}
+.active-home{
+    border-bottom: 2px solid #fff;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #fff;
+}
+/*-----------------------service-----------------------*/
+.service{
+    margin: 75px 0px;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.titleConsultarCorrida:hover{
+    font-size: 9mm;
+    font-weight: bold;
+}
+
+.form-control1{
+    background-color: lightcyan;
+}
+.banner{
+    margin-top: 1%;
+}
+.banner a{
+    padding: 0px;
+    width: 150px;
+    display: inline-block;
+    background: blueviolet;
+    text-decoration: none !important;
+    color: #fff;
+    border: 2px solid lightslategray;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.banner a:hover{
+    color: #fff;
+}
+.service2{
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 0!important;
+    padding-right: 0 !important;
+  }
+
+.express-btn{
+    background: #fff !important;
+    color: #000 !important;
+    margin-right: 5px;
+}
+
+.navbar-brand{
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+
+}
+
+
+.card{
+    margin-top: 10 !important;
+    margin-left: 10 !important;
+    padding-left: 10!important;
+    padding-right: 10 !important;
+    max-width: 450px;
+}
+
