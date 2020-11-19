@@ -6,7 +6,7 @@
     background-image: url("../imagens/truck1.png");
     background-repeat: no-repeat;
     background-size: 38mm;
-    background-color: lightslategrey;
+    background-color: lightslategray;
 }
 .navbar{
     padding-top: 20px !important;
@@ -93,12 +93,9 @@
 
 }
 
-
-.card{
-    margin-top: 10 !important;
-    margin-left: 10 !important;
-    padding-left: 10!important;
-    padding-right: 10 !important;
-    max-width: 450px;
+.service3{
+    margin-top: 50 !important;
+    margin-left: 50 !important;
+    padding-left: 50!important;
+    padding-right: 50 !important;
 }
-
