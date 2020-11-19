@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <title>Consultar Corrida</title>
-        <link rel="stylesheet" href="../style/style1.css">
+        <link rel="stylesheet" href="../style/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="stylesheet" 
@@ -25,9 +25,32 @@
                         <li class="nav-item">
                           <a class="nav-link active-home" href="../home/index.html">HOME</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">CONSULTA</a>
-                        </li>
+                        <div class="dropdown">
+                          <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" type="button" id="dropdownM" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              CONSULTA
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownM">
+                              <a class="dropdown-item" href="../consultar corrida/consultar corrida.html">Corrida</a>
+                              <a class="dropdown-item" href="../relatorios/relatorio.html">Relatório</a>
+                              <a class="dropdown-item" href="#">Gráfico</a>
+                              <a class="dropdown-item" href="#">Veiculo</a>
+                              <a class="dropdown-item" href="#">Cliente</a>
+                            </div>
+                          </li>
+                        </div>
+                        <div class="dropdown">
+                          <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" type="button" id="dropdownMN" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              REGISTRAR
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMN">
+                              <a class="dropdown-item" href="../registrar corrida/Registrar Corrida.html">Corrida</a>
+                              <a class="dropdown-item" href="#">Veiculo</a>
+                              <a class="dropdown-item" href="#">Cliente</a>
+                            </div>
+                          </li>
+                        </div>
                         <li class="nav-item">
                           <a class="nav-link" href="#">NOS CONTATE</a>
                         </li>
@@ -85,6 +108,7 @@
                                   Cliente: José Galbardi<br>
                                   Carga: Granel líquido<br>
                                   Peso da Carga: XX <br>
+                                  Seguro da Carga: Transporte Simples<br>
                                   Custo de Despacho: R$xxxxx,xx<br>
                                   Local de Partida: Maringá-PR<br>
                                   Local de Chegada: Rio de Janeiro-RJ<br>
@@ -96,7 +120,7 @@
                                 </div>
                                 <div class="modal-footer">
                                   <button type="button" class="btn btn-primary">Imprimir</button>
-                                  <button type="button" class="btn btn-primary">Alterar</button>
+                                  <a type="button" class="btn btn-primary" href="../alterar/inicial.html">Alterar</a>
                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                                 </div>
                               </div>
@@ -128,6 +152,7 @@
                                   Tempo Estimado de Chegada: X dias Y horas<br>
                                   Cliente: Pablo Diamante<br>
                                   Carga: Viva<br>
+                                  Seguro da Carga: Transporte Embarcador <br>
                                   Peso da Carga: XX <br>
                                   Custo de Despacho: R$xxxxx,xx<br>
                                   Local de Partida: Belém-PA<br>
@@ -140,7 +165,7 @@
                                 </div>
                                 <div class="modal-footer">
                                   <button type="button" class="btn btn-primary">Imprimir</button>
-                                  <button type="button" class="btn btn-primary">Alterar</button>
+                                  <a type="button" class="btn btn-primary" href="../alterar/inicial.html">Alterar</a>
                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                                 </div>
                               </div>
@@ -186,7 +211,7 @@
                                 </div>
                                 <div class="modal-footer">
                                   <button type="button" class="btn btn-primary">Imprimir</button>
-                                  <button type="button" class="btn btn-primary">Alterar</button>
+                                  <a type="button" class="btn btn-primary" href="../alterar/inicial.html">Alterar</a>
                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                                 </div>
                               </div>
@@ -230,7 +255,7 @@
                                 </div>
                                 <div class="modal-footer">
                                   <button type="button" class="btn btn-primary">Imprimir</button>
-                                  <button type="button" class="btn btn-primary">Alterar</button>
+                                  <a type="button" class="btn btn-primary" href="../alterar/inicial.html">Alterar</a>
                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                                 </div>
                               </div>
@@ -272,11 +297,10 @@
                                   Frota: Cavalo Mecânico Trucado<br>
                                   Quantidade de Veículos: 15<br>
                                   Alterações e motivos:<br>
-                                    Cancelando Corrida; Cliente cancelou.
+                                    Alterado o tempo estimado de chegada; A ponte no caminho desmoronou.
                                 </div>
                                 <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Imprimir</button>
-                                  <button type="button" class="btn btn-primary">Alterar</button>
+                                  <a type="button" class="btn btn-primary" href="../alterar/inicial.html">Alterar</a>
                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                                 </div>
                               </div>
@@ -320,7 +344,7 @@
                                 </div>
                                 <div class="modal-footer">
                                   <button type="button" class="btn btn-primary">Imprimir</button>
-                                  <button type="button" class="btn btn-primary">Alterar</button>
+                                  <a type="button" class="btn btn-primary" href="../alterar/inicial.html">Alterar</a>
                                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                                 </div>
                               </div>

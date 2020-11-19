@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <title>Consultar Relatorio</title>
-        <link rel="stylesheet" href="../style/style1.css">
+        <link rel="stylesheet" href="../style/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="stylesheet" 
@@ -25,9 +25,32 @@
                         <li class="nav-item">
                           <a class="nav-link active-home" href="#">HOME</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">CONSULTA</a>
-                        </li>
+                        <div class="dropdown">
+                          <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" type="button" id="dropdownM" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              CONSULTA
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownM">
+                              <a class="dropdown-item" href="../consultar corrida/consultar corrida.html">Corrida</a>
+                              <a class="dropdown-item" href="../relatorios/relatorio.html">Relatório</a>
+                              <a class="dropdown-item" href="#">Gráfico</a>
+                              <a class="dropdown-item" href="#">Veiculo</a>
+                              <a class="dropdown-item" href="#">Cliente</a>
+                            </div>
+                          </li>
+                        </div>
+                        <div class="dropdown">
+                          <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" type="button" id="dropdownMN" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              REGISTRAR
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMN">
+                              <a class="dropdown-item" href="../registrar corrida/Registrar Corrida.html">Corrida</a>
+                              <a class="dropdown-item" href="#">Veiculo</a>
+                              <a class="dropdown-item" href="#">Cliente</a>
+                            </div>
+                          </li>
+                        </div>
                         <li class="nav-item">
                           <a class="nav-link" href="#">NOS CONTATE</a>
                         </li>
@@ -93,6 +116,7 @@
                                   Cliente: José Galbardi<br>
                                   Carga: Granel líquido<br>
                                   Peso da Carga: XX <br>
+                                  Seguro da Carga: Transporte Simples<br>
                                   Custo de Despacho: R$xxxxx,xx<br>
                                   Local de Partida: Maringá-PR<br>
                                   Local de Chegada: Rio de Janeiro-RJ<br>
@@ -136,6 +160,7 @@
                                   Cliente: Pablo Diamante<br>
                                   Carga: Viva<br>
                                   Peso da Carga: XX <br>
+                                  Seguro da Carga: Transporte Embarcador <br>
                                   Custo de Despacho: R$xxxxx,xx<br>
                                   Local de Partida: Belém-PA<br>
                                   Local de Chegada: Santa Maria-RS<br>

@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
 }
-
 .header{
     background-image: url("../images/truck1.png");
     background-repeat: no-repeat;
     background-size: 38mm;
     background-color: lightslategrey;
+}
+body{
+    background-color: #f1f1f1 !important;
 }
 .navbar{
     padding-top: 20px !important;
@@ -22,6 +24,7 @@
     padding: 0 0 5px 0 !important;
     display: unset !important;
 }
+
 .fa-bars{
     color: #fff;
     font-size: 40px;
@@ -53,4 +56,53 @@
 
 .form-control1{
     background-color: lightcyan;
+}
+.banner{
+    margin-top: 1%;
+}
+.banner a{
+    padding: 0px;
+    width: 150px;
+    display: inline-block;
+    background: blueviolet;
+    text-decoration: none !important;
+    color: #fff;
+    border: 2px solid lightslategray;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.banner a:hover{
+    color: #fff;
+}
+.service2{
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 0!important;
+    padding-right: 0 !important;
+  }
+
+.express-btn{
+    background: #fff !important;
+    color: #000 !important;
+    margin-right: 5px;
+}
+
+.navbar-brand{
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+
+}
+
+
+.card{
+    margin-top: 50 !important;
+    margin-left: 50 !important;
+    padding-left: 150!important;
+    padding-right: 150 !important;
+}
+.dropdown-menu{
+    background-color: #f1f1f1 !important;
 }
