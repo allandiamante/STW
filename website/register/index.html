@@ -53,73 +53,76 @@
           <button class="btn btn-primary" type="submit" onclick="mostrarJuridico()">Jurídico</button>
         </div>
         <p></p>
-        <form id="user-juridico" style = "visibility: hidden;">
-          <div class="row justify-content-md-center">
-            <div class="col-md-4 mb-3">
-              <label for="validationServer01">Nome:</label>
-              <input type="text" class="form-control" id="validationServer01" value="" required>
-            </div>
-            <div class="col-md-4 mb-3">
-              <label for="validationServer02">CEP:</label>
-              <input type="text" class="form-control" id="validationServer02" value="" required>
-            </div>
-          </div>
-          <div class="row justify-content-md-center">
-            <div class="col-md-4 mb-3">
-              <label for="validationServer02">Telefone:</label>
-              <input type="text" class="form-control" id="validationServer02" value="" required>
-            </div>
-            <div class="col-md-4 mb-3">
-              <label for="validationServer02">CNPJ:</label>
-              <input type="text" class="form-control" id="validationServer02" value="" required>
-            </div>
-          </div>
-          <div class="row justify-content-md-center">
-            <div class="col-md-4 mb-3">
-              <label for="validationServer04">Email:</label>
-              <input type="email" class="form-control" id="validationServer02" value="" required>
-            </div>
-            <div class="col-md-4 mb-3">
-              <label for="validationServer05">Senha:</label>
-              <input type="password" class="form-control" id="validationServer05" aria-describedby="validationServer05Feedback" required>
-            </div>
-          </div>
-        </form>
         <form id="user-fisico" style = "visibility: hidden;">
           <div class="row justify-content-md-center">
             <div class="col-md-4 mb-3">
               <label for="validationServer01">Nome:</label>
-              <input type="text" class="form-control" id="validationServer01" value="" required>
+              <input type="text" class="form-control" id="validationServer01" placeholder="Marcos Paulo" required>
             </div>
             <div class="col-md-4 mb-3">
               <label for="validationServer02">CEP:</label>
-              <input type="text" class="form-control" id="validationServer02" value="" required>
+              <input type="text" class="form-control" id="validationServer02" placeholder="10022-900" required onkeypress="$(this).mask('00000-000'); ">
             </div>
           </div>
           <div class="row justify-content-md-center">
             <div class="col-md-4 mb-3">
               <label for="validationServer02">Telefone:</label>
-              <input type="text" class="form-control" id="validationServer02" value="" required>
+              <input type="text" class="form-control" id="validationServer02" placeholder="(44)99945-0733" required>
             </div>
             <div class="col-md-4 mb-3">
               <label for="validationServer02">CPF:</label>
-              <input type="text" class="form-control" id="validationServer02" value="" required>
+              <input type="text" class="form-control" id="validationServer02" placeholder="100.477.831-11" required>
             </div>
           </div>
           <div class="row justify-content-md-center">
             <div class="col-md-4 mb-3">
               <label for="validationServer04">Email:</label>
-              <input type="email" class="form-control" id="validationServer02" value="" required>
+              <input type="email" class="form-control" id="validationServer02" placeholder="marcos-paulo@gmail.com" required>
             </div>
             <div class="col-md-4 mb-3">
               <label for="validationServer05">Senha:</label>
               <input type="password" class="form-control" id="validationServer05" aria-describedby="validationServer05Feedback" required>
             </div>
           </div>
+          <div class="text-center">
+            <button class="btn btn-primary" type="submit">Registrar-se</button>
+          </div>
         </form>
-        <div class="text-center">
-          <button class="btn btn-primary" type="submit">Registrar-se</button>
-        </div>
+        <form id="user-juridico" style = "visibility: hidden;">
+          <div class="row justify-content-md-center">
+            <div class="col-md-4 mb-3">
+              <label for="validationServer01">Nome:</label>
+              <input type="text" class="form-control" id="validationServer01" placeholder="G10" required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationServer02">CEP:</label>
+              <input type="text" class="form-control" id="validationServer02" placeholder="10022-409" required>
+            </div>
+          </div>
+          <div class="row justify-content-md-center">
+            <div class="col-md-4 mb-3">
+              <label for="validationServer02">Telefone:</label>
+              <input type="text" class="form-control" id="validationServer02" placeholder="(44)3225-8759" required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationServer02">CNPJ:</label>
+              <input type="text" class="form-control" id="validationServer02" placeholder="99.999.999/9999-99" required>
+            </div>
+          </div>
+          <div class="row justify-content-md-center">
+            <div class="col-md-4 mb-3">
+              <label for="validationServer04">Email:</label>
+              <input type="email" class="form-control" id="validationServer02" placeholder="g10.transporte@gmail.com" required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationServer05">Senha:</label>
+              <input type="password" class="form-control" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-primary" type="submit">Registrar-se</button>
+          </div>
+        </form>
       </div>
     </section>
   </body>
