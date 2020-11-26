@@ -84,7 +84,7 @@
                       </div>
                     </div>
                     <div class="col-md-3 mb-3">
-                      <label for="validationCustom02">RG:</label>
+                      <label for="validationCustom02">CNH:</label>
                       <input type="text" class="form-control" id="validationCustom02" value="" required onkeypress="$(this).mask('00.000.000-00'); ">
                       <div class="valid-feedback">
                         RG Válido!
@@ -148,7 +148,16 @@
                       <div class="invalid-feedback">
                         Frota não selecionada.
                       </div>                      
-                    </div>                    
+                    </div>
+                    <div class="form-row" style="margin-top: 0 !important; ">
+                      <div class="col-md-12 mb-3">
+                        <label for="validationCustom03">Número de Chassi:</label>
+                        <input type="text" class="form-control" id="validationCustom03" required>
+                        <div class="invalid-feedback">
+                          Modelo não encontrado.
+                        </div>
+                      </div>
+                                          
                     <div class="col-md-3 mb-3">
                         <button type="button" style="margin-top: 15 !important; margin-left: 1350 !important;" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
                             Nova Frota
@@ -179,6 +188,7 @@
                               </div>
                           </div>
                         </div>
+                        
                   <div class="form-group" style="margin-left: 50 !important; padding-right: 50 !important;">
                     <div class="form-check">
                       <div class="invalid-feedback">
@@ -186,6 +196,7 @@
                       </div>
                     </div>
                   </div>
+                  
                 <button class="btn btn-primary" type="submit">Cadastrar</button>
               </form>
               
