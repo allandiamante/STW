@@ -10,3 +10,9 @@ function handleKeyPress(e){
         window.location.href = "consultar corrida.html";
      }
 }
+
+function redirecionar1(evt) {
+    if (evt.target.value === "Cadastrar Cliente") {
+        window.location.href = "../registrar-cliente/index.html";
+    }
+}
