@@ -1,0 +1,4 @@
+Essa semana eu usei o node para conectar ao banco de
+dados e criei algumas funções necessárias, agora falta
+conectar ao front-end e talvez fazer algumas alterações
+nas funções se necessário.
